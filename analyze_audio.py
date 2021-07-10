@@ -19,9 +19,3 @@ def printWAV(FILE_NAME, pos, clip):
         else:
             text = "Audio Over"
     return text
-
-def getDuration(FILE_NAME):
-    # use the audio file as the audio source
-    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), 'static/'+FILE_NAME)
-    with sr.AudioFile(AUDIO_FILE) as source:
-        return source.DURATION
