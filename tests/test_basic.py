@@ -1,6 +1,6 @@
 import unittest, sys
 
-sys.path.append('../flask-example-2')
+sys.path.append('../flask-example-3')
 from hello import app
 
 class BasicTests(unittest.TestCase):
